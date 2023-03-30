@@ -1,0 +1,19 @@
+.footer-menu .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 29px;
+}
+.footer-menu .list .item {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.footer-menu .list .item:last-child {
+    margin-right: 0;
+}
+.footer-menu .list .item .link {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: DM_Sans, sans-serif, Arial;
+}
+
