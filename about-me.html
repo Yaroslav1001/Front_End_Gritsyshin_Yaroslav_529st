@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-
+scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>About</title>
 </head>
 <body>
 <div class="container">
     <header class="header">
+        <div class="overlay"></div>
         <a href="" class="logo">
             <img src="./img/svg/logo.svg" alt="">
         </a>
@@ -16,7 +19,7 @@
                     <a class="link" href="./index.html">Home</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="">About</a>
+                    <a class="link" href="./about-me.html">About</a>
                 </li>
                 <li class="item">
                     <a class="link" href="./tech-stack.html">Tech Stack</a>
@@ -46,7 +49,75 @@
                 </a>
             </li>
         </ul>
+        <button class="nav-btn">
+            <span class="nav-btn-line"></span>
+            <span class="nav-btn-line"></span>
+            <span class="nav-btn-line"></span>
+        </button>
     </header>
+    <section class="about-me-section">
+        <div class="about-me">
+            <h2 class="h2 title">About Me</h2>
+            <p class="description">The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website.
+                It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.</p>
+        </div>
+        <div class="work-experience">
+            <h2 class="h2 title">Work Experience</h2>
+            <ul class="card-container">
+                <li class="card">
+                    <p class="top-left">Junior Web Developer</p>
+                    <span class="top-right">Full Time</span>
+                    <div class="bottom-left">
+                        <img src="./img/svg/work.svg" alt="position icon">
+                        <span>SoftServe</span>
+                    </div>
+                    <div class="bottom-right">
+                        <img src="./img/svg/calendar.svg" alt="position icon">
+                        <span>Sep 2021 - Dec 2021</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <p class="top-left">Web Development Intern</p>
+                    <span class="top-right">Internship</span>
+                    <div class="bottom-left">
+                        <img src="./img/svg/work.svg" alt="position icon">
+                        <span>EPAM</span>
+                    </div>
+                    <div class="bottom-right">
+                        <img src="./img/svg/calendar.svg" alt="position icon">
+                        <span> Sep 2021 - Dec 2021</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <p class="top-left">SEO / SEM Specialist</p>
+                    <span class="top-right">Internship</span>
+                    <div class="bottom-left">
+                        <img src="./img/svg/work.svg" alt="position icon">
+                        <span><a href="https://jobs.dou.ua/companies/globallogic/">GlobalLogic</a></span>
+                    </div>
+                    <div class="bottom-right">
+                        <img src="./img/svg/calendar.svg" alt="position icon">
+                        <span>Sep 2021 - Dec 2021</span>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="education">
+            <h2 class="h2 ">Education</h2>
+            <ul class="card-container">
+                <li class="card">
+                    <p class="top-left">National Aerospace University «Kharkiv Aviation Institute»</p>
+                    <span class="top-right">Full Time</span>
+                    <div class="bottom-right">
+                        <img src="./img/svg/calendar.svg" alt="position icon">
+                        <span class="date">Aug 2015 - Dec 2020</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>

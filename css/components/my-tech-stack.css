@@ -1,0 +1,53 @@
+.my-tech-stack {
+    margin-top: 140px;
+}
+.my-tech-stack .title {
+    font-size: 42px;
+}
+.my-tech-stack .subtitle {
+    margin-top: 31px;
+    justify-content: start;
+    align-items: start;
+    width: 450px;
+    height: 26px;
+    font-size: 20px;
+}
+.my-tech-stack .inner {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 60px;
+    max-width: 1200px;
+}
+.my-tech-stack .inner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Центрирование изображения */
+}
+
+@media screen and (max-width: 1024px) {
+    .my-tech-stack .inner {
+        grid-template-columns: repeat(5, 1fr);
+        }
+    }
+
+@media screen and (max-width: 768px) {
+    .my-tech-stack .inner {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .my-tech-stack .inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .my-tech-stack .subtitle {
+        margin-top: 31px;
+        justify-content: start;
+        align-items: start;
+        width: 350px;
+        height: 26px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,37 @@
+.tech-stack-section {
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tech-stack-section .inner{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tech-stack-section .inner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Центрирование изображения */
+}
+@media screen and (max-width: 1024px) {
+    .tech-stack-section .inner {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tech-stack-section .inner {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tech-stack-section .inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

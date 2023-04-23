@@ -1,0 +1,103 @@
+.about-me-section {
+    width: 785px;
+    height: 75px;
+    left: 207px;
+    top: 572px;
+
+}
+.about-me {
+    margin-top: 110px;
+}
+/*.about-me-section .h2 {*/
+/*    font-weight: 700;*/
+/*    font-size: 42px;*/
+/*    line-height: 1;*/
+/*    color: #42446E;*/
+/*}*/
+.about-me .description {
+    margin-top: 38px;
+    font-size: 18px;
+}
+.work-experience {
+    margin-top: 60px;
+}
+.education {
+    padding-top: 30px;
+}
+.card-container {
+    margin-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.card-container .card {
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid #EBEAED;
+}
+.top-left {
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+.top-right {
+    color: #018C0F;
+    font-size: 9px;
+    display: flex;
+    float: right;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #D7FFE0;
+    width: 93px;
+    height: 24px;
+    border-radius: 100px;
+}
+.bottom-left {
+    padding-left: 2px;
+    padding-top: 4px;
+    font-size: 12px;
+    clear: both;
+    float: left;
+    color: #A7A7A7;
+}
+.bottom-right {
+    padding-top: -333px;
+    font-size: 12px;
+    clear: both;
+    float: right;
+    color: #A7A7A7;
+    margin-bottom: 23px;
+    font-weight: 500;
+    line-height: 28px;
+}
+@media screen and (max-width: 1024px){
+    .about-me{
+    width: 90%;
+    }
+}
+@media screen and (max-width: 768px){
+    .about-me{
+        width: 60%;
+    }
+    .work-experience{
+        width: 70%;
+    }
+    .education{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 480px){
+    .about-me{
+        width: 40%;
+    }
+    .work-experience{
+        width: 40%;
+    }
+    .education{
+        width: 40%;
+    }
+}
+
