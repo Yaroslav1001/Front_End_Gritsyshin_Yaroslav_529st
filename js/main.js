@@ -22,3 +22,4 @@ const handleDomContentLoaded = function () {
     overlay.addEventListener('click', closeNavigation);
 }
 document.addEventListener('DOMContentLoaded', handleDomContentLoaded);
+

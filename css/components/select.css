@@ -1,0 +1,31 @@
+.select {
+    appearance: none;
+    padding: 13px 50px 13px 20px ;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("../../img/svg/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px top 50%;
+    background-size: 24px 24px;
+    border: 1px solid #42446e;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #666;
+}
+p.no-projects-message {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #42446E;
+    width: 100% !important;
+}
+@media screen and (max-width: 768px) {
+    .select {
+        padding: 10px 40px 10px 15px;
+        background-position: right 15px top 50%;
+        background-size: 20px 20px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+}
+

@@ -1,0 +1,26 @@
+.listButton {
+    display: inline-block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    max-width: 35px;
+    max-height: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.listButton .img {*/
+/*    display: inline-block;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*}*/
+
+.list-view .project-card {
+    width: 100%;
+    display: flex;
+}
+
+.list-view .project-card .img {
+    border-radius: unset;
+}
